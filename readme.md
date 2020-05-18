@@ -8,7 +8,7 @@ git clone https://github.com/foundation/foundation-sites-template foundation
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd foundation
 npm install
 ```
 Finally, run `gulp watch` to run the Sass compiler. It will re-run every time you save a Sass file.
