@@ -3,7 +3,7 @@ If you are looking for a simple template or set up to automate your changes in y
 
 To Run the Project
 ```bash
-git clone https://github.com/foundation/foundation-sites-template foundation
+git clone https://github.com/iseeyoucopy/gulp4-sass-foundation foundation
 ```
 Then open the folder in your command line, and install the needed dependencies:
 
