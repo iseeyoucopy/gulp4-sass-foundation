@@ -10,7 +10,7 @@
   "author": "iseeyoucopy",
   "homepage": "https://u-232.duckdns.org",
   "dependencies": {
-    "foundation-sites": "^6.6.0",
+    "foundation-sites": "^6.6.0"
   },
     "peerDependencies": {
     "jquery": ">=2.2.0",
