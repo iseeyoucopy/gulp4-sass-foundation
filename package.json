@@ -15,11 +15,12 @@
     "motion-ui": "^2.0.3",
     "what-input": "^5.1.2"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/register": "^7.0.0",
     "autoprefixer": "^9.1.5",
+    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.4",
     "browser-sync": "^2.10.0",
