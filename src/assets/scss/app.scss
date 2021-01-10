@@ -1,6 +1,10 @@
 @charset 'utf-8';
 
 @import 'settings';
+@import 'pagination';
+@import 'foundswatch';
+@import 'multileveloffcanvas';
+@import 'subnav_header';
 @import 'foundation';
 @import 'motion-ui';
 @include foundation-prototype-classes;
