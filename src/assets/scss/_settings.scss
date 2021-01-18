@@ -120,6 +120,7 @@ $global-color-pick-contrast-tolerance: 0;
 $global-content-border: $__bs__gray-300;
 $print-transparent-backgrounds: true;
 $print-hrefs: true;
+$label-radius-global: 0.25rem;
 
 @include add-foundation-colors;
 
@@ -369,7 +370,7 @@ $callout-link-tint: 30%;
 
 $card-background: $white;
 $card-font-color: $body-font-color;
-$card-divider-background: $light-gray;
+$card-divider-background: $primary-color;
 $card-border: 1px solid $global-content-border;
 $card-shadow: none;
 $card-border-radius: $global-radius;
@@ -500,7 +501,7 @@ $label-color-alt: $white;
 $label-palette: $foundation-palette;
 $label-font-size: 0.8rem;
 $label-padding: 0.33333rem 0.5rem;
-$label-radius: $global-radius;
+$label-radius: $label-radius-global;
 
 // 22. Media Object
 // ----------------
