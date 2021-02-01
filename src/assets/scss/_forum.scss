@@ -1,0 +1,116 @@
+a.forumtitle {
+	&:active {
+		color: #105289;
+	}
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 600;
+	text-decoration: none;
+	color: #148FCF;
+}
+a.topictitle {
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 600;
+	text-decoration: none;
+	color: #148FCF;
+	&:hover {
+		color: #8C8C8C;
+		text-decoration: none;
+	}
+	&:active {
+		color: #105289;
+	}
+}
+/* --------------------------------------------------------------
+Font icon forums
+-------------------------------------------------------------- */
+.row-icon {
+	float: left;
+	height: 27px;
+	margin-right: 5px;
+	margin-top: 5px;
+	width: 27px;
+}
+.topic-icon {
+	float: left;
+	height: 16px;
+	margin-left: -38px;
+	margin-top: -5px;
+	position: absolute;
+	width: 16px;
+}
+.row-icon-font {
+	float: left;
+	font-size: 27px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.forum-image {
+	display: inline-block;
+	float: left;
+	width: 46px;
+	height: 40px;
+	img {
+		width: 42px;
+		height: 42px;
+	}
+}
+.row-icon-font-mini {
+	color: #FFFFFF;
+	font-size: 14px;
+	margin-left: -20px;
+	margin-right: 5px;
+	margin-top: 15px;
+	position: absolute;
+}
+.forum-list-lock {
+	margin-left: -15px;
+	margin-top: 18px;
+}
+.forumview-lock {
+	color: #666;
+	margin-left: -14px;
+	margin-top: 21px;
+	text-shadow: -1px -1px 0 #FFFFFF;
+}
+.icon-moon-default {
+	&:before {
+		content: "\e64d";
+	}
+}
+.icon-moon-default2 {
+	&:before {
+		content: "\e687";
+	}
+}
+.icon-moon-link2 {
+	&:before {
+		content: "\e04a";
+	}
+}
+.icon-moon-podcast2 {
+	&:before {
+		content: "\e678";
+	}
+}
+.icon-moon-voice2 {
+	&:before {
+		content: "\e677";
+	}
+}
+.icon-moon-pushpin2 {
+	&:before {
+		content: "\e016";
+	}
+}
+.icon-moon-bars2 {
+	&:before {
+		content: "\e043";
+	}
+}
+.icon-moon-moved {
+	&:before {
+		content: "\e63a";
+	}
+}
